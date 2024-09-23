@@ -1,0 +1,242 @@
+{
+  "intents": [
+    {
+      "tag": "dean",
+      "patterns": [
+        "siapa kamu", "siapa anda", "lo siapa", "kamu", "siapa yang buat kamu", "help",
+        "apa tugas anda", "apa yang bisa dibantu", "kamu bisa bantu apa", "kapan kamu lahir" 
+      ]
+    },
+    {
+      "tag": "yeswords",
+      "patterns": [
+        "betul", "benar", "bener", "ya", "iya", "iye",
+        "ye", "yes", "yea", "yeah", "yep", "yup", "correct"
+      ]
+    },
+    {
+      "tag": "nowords",
+      "patterns": [
+        "ngga", "nggak", "ga", "gak", "tidak", "salah",
+        "no", "nope", "nah", "bukan", "tapi", "tetapi", "but"
+      ]
+    },
+    {
+      "tag": "greetings",
+      "patterns": [
+        "helo", "hey", "hei", "halo",
+        "halo dean", "hai dean", "hi",
+        "hello dean", "helo dean", "hai",
+        "hei dean", "hi dean", "hello"
+      ]
+    },
+    {
+      "tag": "user_data_full",
+      "patterns": [
+        "siapa aku", "saya siapa", "who am i", "data saya",
+        "apa yang kamu tahu tentangku", "tampilkan informasi gua",
+        "siapa saya", "liat data pribadi", "cek identitas gw",
+        "identitas saya", "pribadi aku", "aku", "saya"
+      ]
+    },
+    {
+      "tag": "user_data",
+      "patterns": [
+        "apa department aku", "division saya", "lokasi saya",
+        "kerja dimana gw", "saya di directorate apa",
+        "sudah berapa lama saya kerja di adm", "golongan saya",
+        "kapan aku join adm", "departemen aku", "subgolongan aku",
+        "nama saya apa", "directorate saya", "divisi saya"
+      ]
+    },
+    {
+      "tag": "employee_data",
+      "patterns": [
+        "liat atasan saya", "cek bawahan saya", "direktur saya",
+        "siapa division head aku", "siapa supervisor saya", "atasan saya",
+        "department head aku siapa", "spv siapa", "siapa director",
+        "berapa div head gw", "dept head saya", "bawahan aku"
+      ]
+    }, 
+    {
+      "tag": "absensi",
+      "patterns": [
+        "gimana absensi", "absensi saya sudah lengkap belum",
+        "absen aman ga", "clockout jam berapa", "liat absen",
+        "cek clockin", "liat clock out kemarin", "absensi",
+        "clock in clock out ada yang kosong tidak", "absen saya", "absen aku",
+        "berapa kali telat bulan ini", "kapan terakhir telat"
+      ]
+    },
+    {
+      "tag": "cuti",
+      "patterns": [
+        "liat cuti", "cek cuti", "cuti", "berapa kali udah claim cuti tahunan", "cuti panjang yang sudah diapprove berapa",
+        "berapa cuti yang ditolak", "kapan terakhir claim cuti tahunan", "kalo cuti panjang yang masih on progress",
+        "siapa yang approve cuti saya", "cuti panjang masih pending di siapa", "kenapa cuti tahunan saya direject",
+
+        "berapa sisa cuti tahunan", "berapa hari cuti tahunan yang udah kepake",
+        "kalau cuti panjang tinggal berapa hari", "sisa cuti panjang",
+        "berapa total hari cuti panjang", "cuti tahunan dapet berapa",
+        "cuti panjang udah kepake berapa hari", "cuti tahunan tinggal berapa"
+      ]
+    },
+    {
+      "tag": "skta",
+      "patterns": [
+        "liat skta", "cek skta", "skta", "berapa kali udah buat skta", "skta yang sudah diapprove berapa",
+        "berapa skta yang ditolak", "kapan terakhir claim skta", "kalo skta yang masih on progress",
+        "skta masih pending di siapa", "kenapa skta saya direject", "siapa terakhir yang approve skta",
+        "surat keterangan tidak absen", "liat surat keterangan tidak absen"
+      ]
+    },
+    {
+      "tag": "supem",
+      "patterns": [
+        "liat supem", "cek supem", "supem", "berapa kali udah buat supem", "supem yang sudah diapprove berapa",
+        "berapa supem yang ditolak", "kapan terakhir claim supem", "kalo supem yang masih on progress",
+        "supem masih pending di siapa", "kenapa supem saya direject", "siapa terakhir yang approve supem",
+        "surat pemberitahuan", "liat surat pemberitahuan"
+      ]
+    },
+    {
+      "tag": "overtime",
+      "patterns": [
+        "liat overtime", "cek overtime", "overtime", "berapa kali udah claim overtime", "overtime yang sudah diapprove berapa",
+        "berapa overtime yang ditolak", "kapan terakhir claim overtime", "kalo overtime yang masih on progress", "liat lembur",
+        "overtime masih pending di siapa", "kenapa overtime saya direject", "siapa terakhir yang approve overtime", "lembur",
+        "surat perintah lembur"
+      ]
+    },
+    {
+      "tag": "medicalplafon",
+      "patterns": [
+        "berapa limit medical plafon", "liat plafon", "cek medical plafon", "plafon",
+        "kapan medical plafonku expired", "udah kepake berapa medical plafonnya",
+        "plafon saya berlaku sejak kapan", "medical claim saya sudah diapprove siapa",
+        "kenapa medical claim aku direject", "siapa terakhir yang approve medical claim aku",
+        "medical plafon", "liat obat", "obat"
+      ]
+    },
+    {
+      "tag": "system_suggestion",
+      "patterns": [
+        "liat ss", "cek ss", "lihat ss", "berapa kali udah buat ss", "ss yang sudah diapprove berapa",
+        "berapa ss yang ditolak", "kapan terakhir claim ss", "kalo ss yang masih on progress",
+        "ss masih pending di siapa", "kenapa ss saya direject", "siapa terakhir yang approve ss",
+        "system suggestion", "liat system suggestion",
+
+        "berapa total ss yang sudah saya buat", "berapa ss saya yang masih in progress",
+        "apa judul ss saya", "ss saya sedang in progress di level apa", "siapa penilai div head saya",
+        "berapa total reward ss saya yang saya dapat", "siapa penilai ss saya sekarang",
+        "apa level pertama penilai ss saya", "apakah ada ss yang harus saya nilai",
+        "berapa total ss yang in progress di saya", "siapa penilai foreman saya",
+        "berapa total karyawan yang harus saya nilai ss nya", "siapa penilai supervisor saya",
+        "siapa penilai dept head saya",  "siapa penilai direktur saya",
+        "apa judul ss saya dengan nilai tertinggi", "apa judul ss saya dengan nilai terendah",
+        "siapa ss dengan nilai terbaik bulan ini", "apa ss dengan nilai terbaik bulan ini",
+        "ss di dari divisi apa yang terbaik bulan ini",
+        "berapa total ss yang ada di draft saya", "berapa total ss saya yang sudah dinilai"
+      ]
+    },
+    {
+      "tag": "jadwal",
+      "patterns": [
+        "liat jadwal adm", "cek jadwal", "kapan libur lagi", "liat jadwal libur adm",
+        "kapan weekend masuk", "kapan terakhir libur", "cek kalender kerja adm",
+        "cek calendar", "liat calendar kerja adm", "dipaksa masuk", "liat kalender",
+        "replacement day", "liat replacement day"
+      ]
+    },
+    {
+      "tag": "buat_claims",
+      "patterns": [
+        "buat skta", "bikin supem", "buatkan aku ss", "mau claim medical",
+        "buatin medical claim", "klaim plafon buat aku", "klaim overtime",
+        "claim cuti panjang", "saya mau claim skta", "bikinin ss", "bikin cuti",
+        "buatin supem", "buatin supem dong", "mau claim overtime nih",
+        "klaim cuti", "bikinin skta dong", "input supem", "input ss"
+      ]
+    },
+    {
+      "tag": "baca_berita",
+      "patterns": [
+        "adm news", "berita adm", "liat berita adm", "cek berita adm",
+        "ada apa dengan adm hari ini", "kasih tahu berita adm",
+        "berita adm hari ini", "apa news hari ini di adm", "baca berita hari ini",
+        "mau liat berita adm", "baca adm news", "liat news", "cek news"
+      ]
+    },
+    {
+      "tag": "PO_status",
+      "patterns": [
+        "nomor PO XXXXXXXXXX udah dimana", "IA XX/XXX/XX/XX/XX/X.X .XX.X-XXXXX sudah sampe mana", 
+        "PO XXXXXXXXXX sudah dimana", "nomor PR GXXXXXXXXXX udah sampai mana", 
+        "cek status IA XX/XXX/XX/XX/XX/X.X .XX.X-XXXXX", "liat status nomor PO XXXXXXXXXX",
+        "nomor PR GXXXXXXXXXX", "liat nomor PO XXXXXXXXXX", "status PR GXXXXXXXXXX"
+      ]
+    },
+    {
+      "tag": "materialGA",
+      "patterns": [
+        "PO XXXXXXXXXX itu barangnya apa", "apa barang nomor IA XX/XXX/XX/XX/XX/X.X .XX.X-XXXXX", 
+        "nomor PO XXXXXXXXXX materialnya apa", "material PR GXXXXXXXXXX itu apa",
+        "liat material PO XXXXXXXXXX", "list barang nomor PR GXXXXXXXXXX",
+        "cek material IA XX/XXX/XX/XX/XX/X.X .XX.X-XXXXX", "adakah di onesystem", 
+        "material ada ngga di one system"
+      ]
+    },
+    {
+      "tag": "avg_harga_material",
+      "patterns": [
+        "berapa harga rata rata material", "harga rata-rata", "harganya berapa", "liat rata2 harga", "rata2 harganya berapa"
+      ]
+    },
+    {
+      "tag": "IA-PR-PO",
+      "patterns": [
+        "nomor IA XX/XXX/XX/XX/XX/X.X .XX.X-XXXXX udah ada nomor POnya", 
+        "IA XX/XXX/XX/XX/XX/X.X .XX.X-XXXXX sudah punya PO", 
+        "nomor PO untuk nomor IA XX/XXX/XX/XX/XX/X.X .XX.X-XXXXX",
+        "POnya nomor IA XX/XXX/XX/XX/XX/X.X .XX.X-XXXXX berapa",
+        "nomor PR GXXXXXXXXXX sudah ada POnya", "POnya PR GXXXXXXXXXX berapa",
+        "PR GXXXXXXXXXX sudah punya PO", "nomor PO untuk nomor PR GXXXXXXXXXX",
+        "nomor PR untuk PO XXXXXXXXXX berapa", "berapa nomor IA untuk nomor PO XXXXXXXXXX"
+      ]
+    },
+    {
+      "tag": "division_purchases",
+      "patterns": [
+        "divisi terbanyak yang beli", "paling sering dibeli sama divisi apa", 
+        "div mana yang beli y paling banyak", "berapa sering division x beli",
+        "siapa yang paling sering beli"
+      ]
+    },
+    {
+      "tag": "self_purchases", 
+      "patterns": [
+        "berapa total pembelian saya selama bulan X sampai Y",
+        "aku beli apa saja dari bulan X sampai Y", 
+        "material apa yang aku beli di bulan X",
+        "minggu ini total pembelianku berapa"
+      ]
+    },
+    {
+      "tag": "booking ruangan",
+      "patterns": [
+        "ruang mana yang kosong", "ruangan mana yang kosong",
+        "apakah room kosong", "apakah ruangan tersedia", 
+        "kapan room selesai dipakai", "kapan ruangan kosong", 
+        "ruangan tersedia jam berapa", "room ada dimana", 
+        "siapa yang pakai ruangan", "room dibook oleh siapa", 
+        "dimana ruangan berada", "kapasitas ruangan berapa orang",
+        "fasilitias ruangan apa saja", "di ruangan ada TV tidak"
+      ]
+    },
+    {
+      "tag": "panduan treasury",
+      "patterns": ["finance treasury", "treasury", "panduan treasury"]
+    }
+  ]
+}
+

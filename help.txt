@@ -1,0 +1,5 @@
+chatbotmodel.h5 is the main model to identify the main tag from userinput
+intents.json is used to create chatbotmodel.h5, classes.json and words.json
+
+inner models contains models for each tag found in chatbotmodel.h5
+each of these inner model have their own intents.json, classes.json and words.json
